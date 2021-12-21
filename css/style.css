@@ -7,6 +7,15 @@ header {
     justify-content: center;
     align-items: center;
 }
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+header ul li {
+    margin: 20px;
+    list-style: none;
+    text-transform: capitalize;
+}
 #form {
     display: flex;
     flex-direction: column;
