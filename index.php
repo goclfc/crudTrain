@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header> <h1> Hello World!  </h1> </header> 
+    
+
+   <?php
+
+   require_once 'assets/header.php';
+   require_once 'assets/create.php';
+   require_once 'assets/createTable.php';
+?>
 </body>
 </html>
